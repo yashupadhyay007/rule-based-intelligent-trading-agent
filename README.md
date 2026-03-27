@@ -21,16 +21,25 @@ It also calculates simple profit and saves the result in a CSV file. A graph is 
 * `Intelligent Trading Agent.pdf` → Project report
 
 ## Input Format
+
 The input file must be named `stock_data.csv`.
+
+The file should contain two columns:
+
+* `Day`
+* `Price`
 
 Example:
 
-Day                     Price
-1                        100
-2                        98
-3                        97
-4                        99
-5                        102
+```csv
+Day,Price
+1,100
+2,98
+3,97
+4,99
+5,102
+```
+
 
 ## Decision Rules
 The program calculates percentage change in stock price using daily values.
