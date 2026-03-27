@@ -93,7 +93,7 @@ python main.py
 4. To display the graph separately:
 
 ```bash
-trading_graph,png
+trading_graph.png
 ```
 
 5. The graph will show stock price movement with BUY and SELL points.
