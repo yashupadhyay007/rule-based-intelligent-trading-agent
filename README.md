@@ -62,9 +62,16 @@ Displays stock price graph with BUY and SELL points.
 
 
 ## Libraries Used
+
 * csv
 * matplotlib
-Install matplotlib if needed: pip install matplotlib
+
+Install matplotlib if needed:
+
+```bash
+pip install matplotlib
+```
+
 
 ## How to Run
 1. Keep all project files in the same folder:
@@ -74,7 +81,9 @@ Install matplotlib if needed: pip install matplotlib
 
 2. Run the main program to generate trading decisions and output table:
 
-       python main.py
+```bash
+python main.py
+```
 
 3. The program will create:
 
@@ -83,7 +92,9 @@ Install matplotlib if needed: pip install matplotlib
 
 4. To display the graph separately, run:
 
+```bash
 python tradingagent.py
+```
 
 5. The graph will show stock price movement with BUY and SELL points.
 
@@ -98,6 +109,3 @@ It demonstrates:
 
 ## Purpose of the Project
 The purpose of this project is to show how a simple intelligent agent can make decisions in a stock market environment using basic Python programming.
-
-
-
