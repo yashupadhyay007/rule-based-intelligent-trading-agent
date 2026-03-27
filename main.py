@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 day_list=[]
 price_list=[]
 
-with open("C:/Users/Dell/Desktop/stock_data.csv","r") as file:
+with open("stock_data.csv","r") as file:
     reader = csv.reader(file)
     next(reader)
 
@@ -68,7 +68,7 @@ for i in range(len(day_list)):
 
     profit_list.append(profit)
 
-with open("C:/Users/Dell/Desktop/output_table.csv", "w") as file:
+with open("output_table.csv", "w") as file:
     writer = csv.writer(file)
     writer.writerow(["Day", "Price", "Change%", "Decision", "Profit"])
 
