@@ -51,8 +51,7 @@ Displays stock price graph with BUY and SELL points.
 ## Libraries Used
 * csv
 * matplotlib
-Install matplotlib if needed:
-pip install matplotlib
+Install matplotlib if needed: pip install matplotlib
 
 ## How to Run
 1. Keep `main.py` and `stock_data.csv` in the same folder
