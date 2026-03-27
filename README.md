@@ -90,10 +90,10 @@ python main.py
    * terminal output
    * `output_table.csv`
 
-4. To display the graph separately, run:
+4. To display the graph separately:
 
 ```bash
-python tradingagent.py
+trading_graph,png
 ```
 
 5. The graph will show stock price movement with BUY and SELL points.
