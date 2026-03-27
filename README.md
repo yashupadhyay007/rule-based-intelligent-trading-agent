@@ -20,7 +20,9 @@ It also calculates simple profit and saves the result in a CSV file. A graph is 
 
 ## Input Format
 The input file must be named `stock_data.csv`.
+
 Example:
+
 Day Price
 1   100
 2   98
