@@ -21,12 +21,12 @@ It also calculates simple profit and saves the result in a CSV file. A graph is 
 ## Input Format
 The input file must be named `stock_data.csv`.
 Example:
-Day,Price
-1,100
-2,98
-3,97
-4,99
-5,102
+Day Price
+1   100
+2   98
+3   97
+4   99
+5   102
 
 ## Decision Rules
 The program calculates percentage change in stock price using daily values.
